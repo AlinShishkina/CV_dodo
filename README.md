@@ -149,7 +149,7 @@ return self.detect_motion_roi(frame) or self.detect_person_near(frame)
 ![Выбор ROI](screenshots/roi_selection_v1.png)  
 *Выделение столика мышкой (видео 1)*
 
-![Кадр из видео](screenshots/out_v1.png)  
+![Кадр из видео](screenshots/out1_v1.png)  
 *Кадр из обработанного видео: красная рамка – столик занят или человек прошел мимо выделенной области.*
 
 [Ссылки на архивы итоговых видео](https://drive.google.com/drive/folders/1sv7hWvMjxRX75midq1idTG4JpI79-tp0?usp=drive_link)
