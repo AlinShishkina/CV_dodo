@@ -1,0 +1,61 @@
+ОТЧЕТ ДЕТЕКЦИИ ЛЮДЕЙ ЗА СТОЛИКАМИ 25.03 15:23
+============================================================
+
+ВИДЕО: video1.mp4
+ROI: 663x354 пикселей в позиции (1240,39)
+
+РЕЗУЛЬТАТ:
+Переходов "пустой -> занятый стол": 17
+Среднее время задержки: 28.5 секунд
+
+СОБЫТИЯ:
+ frame   time    state reason
+   825  41.25 occupied motion
+  1492  74.60    empty  clear
+  1554  77.70 occupied motion
+  1641  82.05    empty  clear
+  1798  89.90 occupied motion
+  1883  94.15    empty  clear
+  2539 126.95 occupied motion
+  2620 131.00    empty  clear
+  2715 135.75 occupied motion
+  2798 139.90    empty  clear
+  4798 239.90 occupied motion
+  4874 243.70    empty  clear
+  5208 260.40 occupied motion
+  5369 268.45    empty  clear
+  5866 293.30 occupied motion
+  5937 296.85    empty  clear
+  6013 300.65 occupied motion
+  6106 305.30    empty  clear
+  6816 340.80 occupied motion
+  6924 346.20    empty  clear
+  7288 364.40 occupied motion
+  7370 368.50    empty  clear
+  8217 410.85 occupied motion
+  8284 414.20    empty  clear
+  8531 426.55 occupied motion
+  8611 430.55    empty  clear
+  9135 456.75 occupied motion
+  9305 465.25    empty  clear
+  9661 483.05 occupied motion
+  9750 487.50    empty  clear
+  9846 492.30 occupied motion
+ 10023 501.15    empty  clear
+ 10309 515.45 occupied motion
+ 10533 526.65    empty  clear
+ 12930 646.50 occupied motion
+
+ПРОБЛЕМНЫЕ КАДРЫ (10/10):
+  - problem_false_motion_000040_125604.jpg (кадр 40, причина: false_motion, ROI: 663x354@1240,39)
+  - problem_false_motion_000041_125604.jpg (кадр 41, причина: false_motion, ROI: 663x354@1240,39)
+  - problem_false_motion_000042_125605.jpg (кадр 42, причина: false_motion, ROI: 663x354@1240,39)
+  - problem_false_motion_000043_125605.jpg (кадр 43, причина: false_motion, ROI: 663x354@1240,39)
+  - problem_person_miss_000806_130224.jpg (кадр 806, причина: person_miss, ROI: 663x354@1240,39)
+  - problem_person_miss_000807_130225.jpg (кадр 807, причина: person_miss, ROI: 663x354@1240,39)
+  - problem_person_miss_000808_130225.jpg (кадр 808, причина: person_miss, ROI: 663x354@1240,39)
+  - problem_person_miss_000811_130227.jpg (кадр 811, причина: person_miss, ROI: 663x354@1240,39)
+  - problem_false_motion_000812_130227.jpg (кадр 812, причина: false_motion, ROI: 663x354@1240,39)
+  - problem_person_miss_000812_130227.jpg (кадр 812, причина: person_miss, ROI: 663x354@1240,39)
+
+Пример проблемного кадра: problem_frames/problem_false_motion_000040_125604.jpg
