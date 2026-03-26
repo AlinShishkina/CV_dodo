@@ -15,8 +15,8 @@
 
 1. Скачайте или клонируйте репозиторий:
    ```bash
-   git clone https://github.com/your-username/table-detector.git
-   cd table-detector
+   git clone https://github.com/your-username/cv_dodo.git
+   cd cv_dodo
    ```
 2. Установите зависимости (лучше в виртуальном окружении):
    ```bash
